@@ -40,6 +40,10 @@
     align-items: center;
     border: none;
     border-radius: 50%;
+    transition: transform 0.5s;
+}
+.market-bottom button:hover{
+    transform: rotate(45deg);
 }
 .li-uzum img{
     width: 670px;

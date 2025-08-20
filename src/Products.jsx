@@ -19,35 +19,35 @@ function Products() {
                 <img src={nike1} alt="nike1" className='products-li_img'/>
                 <div className='product-li_bottom'>
                     <p>MAN</p>
-                    <img src={arrow1} alt=""/>
+                    <i class="fa-solid fa-arrow-up"></i>
                 </div>
             </li>
             <li className='products-li'>
                 <img src={nike2} alt="nike2"  className='products-li_img'/>
                 <div className='product-li_bottom'>
                     <p>MAN</p>
-                    <img src={arrow1} alt=""/>
+                    <i class="fa-solid fa-arrow-up"></i>
                 </div>
             </li>
             <li className='products-li'>
                 <img src={nike3} alt="nike3"  className='products-li_img'/>
                 <div className='product-li_bottom'>
                     <p>WOMAN</p>
-                    <img src={arrow1} alt=""/>
+                    <i class="fa-solid fa-arrow-up"></i>
                 </div>
             </li>
             <li className='products-li'>
                 <img src={nike4} alt="nike4"  className='products-li_img'/>
                 <div className='product-li_bottom'>
                     <p>KID</p>
-                    <img src={arrow1} alt=""/>
+                    <i class="fa-solid fa-arrow-up"></i>
                 </div>
             </li>
             <li className='products-li'>
                 <img src={nike5} alt="nike5"  className='products-li_img'/>
                 <div className='product-li_bottom'>
                     <p>KID</p>
-                    <img src={arrow1} alt=""/>
+                    <i class="fa-solid fa-arrow-up"></i>
                 </div>
             </li>
             <li id='products-li2'>

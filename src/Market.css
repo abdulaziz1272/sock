@@ -1,0 +1,137 @@
+.market-bar{
+    padding: 160px 40px 40px 40px;
+    border-bottom: solid 2px #D9D9D9;
+}
+.market-title h2{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    max-width: 911px;
+    padding-left: 80px;
+    color: #0567FA;
+}
+.market-ul{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.market-bottom{
+    margin-top: 20px;
+    display: flex;
+    gap: 290px;
+    margin-left: 260px;
+}
+.market-bottom p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #666666;
+    max-width: 325px;
+}
+.market-bottom button{
+    width: 48px;
+    height: 48px;
+    background: #0567FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+}
+.li-uzum img{
+    width: 670px;
+    height: 520px;
+    border-radius: 16px;
+}
+.regular{
+    width: 210px;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+}
+.regular img{
+    width: 210px;
+}
+.li-baba{
+    background: #f37022;
+}.li-amazon{
+    background: #f9d95f;
+}.li-temu{
+    background: #ff6d00;
+}
+
+
+@media(max-width: 800px){
+    .market-bar{
+        padding: 80px 20px 40px 20px;
+    }
+    .market-title h2{
+        max-width: 650px;
+        padding-left: 60px;
+    }
+    .market-ul{
+        margin-top: 40px;
+    }
+    .market-bottom{
+        gap: 190px;
+        margin-left: 195px;
+    }
+    .regular{
+        width: 175px;
+        height: 480px;
+    }
+    .regular img{
+        width: 175px;
+    }
+
+    .li-uzum img{
+        width: 565px;
+        height: 480px;
+    }
+    .li-amazon{
+        display: none;
+    }
+    .li-temu{
+        display: none;
+    }
+
+}
+@media(max-width: 360px){
+    .market-bar{
+        padding: 40px 20px 20px 20px;
+    }
+    .market-title h2{
+        max-width: 320px;
+        padding-left: 0px;
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .market-bottom{
+        flex-direction: column;
+        gap: 12px;
+        margin-left: 0px;
+    }
+    .regular{
+        width: 68px;
+        height: 260px;
+        border-radius: 12px;
+    }
+    .regular img{
+        width: 68px;
+    }
+    .li-uzum img{
+        width: 236px;
+        height: 260px;
+        border-radius: 12px;
+    }
+    .li-amazon{
+        display: flex;
+    }
+    .li-baba{
+        display: none;
+    }
+}

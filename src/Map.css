@@ -1,0 +1,89 @@
+.map-bar{
+    padding: 20px 40px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.map-bar > div{
+    width: 670px;
+    height: 560px;
+    border-radius: 16px;
+}
+.application{
+    padding: 48px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #F0F0F0;
+}
+.apply-form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.application > h2{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #333333;
+    max-width: 485px;
+}
+.apply-form > input{
+    height: 52px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    padding: 10px 23px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+}
+.apply-form > button{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    padding: 10px;
+    color: white;
+    background: #0567FA;
+    border-radius: 12px;
+    border: none;
+}
+.apply-form > button:active{
+    transform: scale(0.995);
+}
+
+
+@media(max-width: 800px){
+    .map-bar{
+        padding: 20px 20px 80px;
+    }
+    .map-bar > div{
+        width: 760px;
+    }
+    .location{
+        display: none;
+    }
+}
+@media(max-width: 360px){
+    .map-bar{
+        padding-bottom: 60px;
+    }
+    .map-bar > div{
+        width: 320px;
+        height: 440px;
+        padding: 20px;
+    }
+    .application > h2{
+        font-size: 32px;
+        line-height: 40px;
+        max-width: 288px;
+    }
+    .application > h2 span:nth-child(2){
+        display: none;
+    }
+}

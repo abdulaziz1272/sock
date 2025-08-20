@@ -1,0 +1,122 @@
+.look-bar{
+    padding: 120px 40px;
+    border-bottom: solid 2px #CCCCCC;
+}
+.look-title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    max-width: 870px;
+    color: #0567FA;
+    padding-left: 80px;
+}
+.look-btn{
+    width: 100%;
+    height: 52px;
+    border-radius: 16px;
+    border: solid 2px #CCCCCC;
+    background: transparent;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #666666;
+}
+.look-ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px 0 60px;
+    justify-content: space-between;
+    row-gap: 60px;
+}
+.look-ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.look-ul li img{
+    width: 440px;
+    height: 440px;
+    border-radius: 16px;
+    background: #F0F0F0;
+}
+.look-bottom{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.look-bottom p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    max-width: 263px;
+    color: #666666;
+}
+.color-combo{
+    display: flex;
+    gap: 8px;
+}
+.color-combo div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.color-combo :first-child{
+    background: #BDBDBD;
+}
+.color-combo :nth-child(2){
+    background: #43F6C0;
+}
+.color-combo :nth-child(3){
+    background: #3935F9;
+}
+
+@media(max-width: 800px){
+    .look-bar{
+        padding: 80px 20px;
+    }
+    .look-title{
+        max-width: 666px;
+        padding-left: 60px;
+    }
+    .look-ul{
+        margin: 40px 0 40px;
+        row-gap: 40px;
+    }
+    .look-ul li img{
+        width: 370px;
+        height: 400px;
+    }
+    .look-ul :nth-child(5){
+        display: none;
+    }
+    .look-ul li:nth-child(3){
+        display: none;
+    }
+    .look-ul :nth-child(4){
+        display: none;
+    }
+}
+@media(max-width: 360px){
+    .look-bar{
+        padding: 40px 20px;
+    }
+    .look-title{
+        max-width: 320px;
+        padding-left: 0px;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .look-ul li img{
+        width: 320px;
+        height: 320px;
+    }
+    .look-bottom{
+        padding: 0px;
+        gap: 0px;
+    }
+}

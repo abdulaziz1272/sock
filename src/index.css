@@ -1,0 +1,27 @@
+@font-face{
+    font-family: poppins;
+    src: url('/public/Poppins-Regular.ttf') 
+    format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+button{
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.98);
+}
+button:hover{
+    opacity: 0.8;
+}

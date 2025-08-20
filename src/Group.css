@@ -1,0 +1,120 @@
+.group-bar{
+    padding: 0 84px 80px 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid #D9D9D9 2px;
+}
+.group-img img{
+    width: 670px;
+    height: 440px;
+    border-radius: 16px;
+}
+.group-main{
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+}
+.group-main h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    max-width: 460px;
+}
+.workers-list{
+    display: flex;
+    gap: 125px;
+}
+.workers-list_ul{
+    display: flex;
+    position: relative;
+    width: 330px;
+    height: 130px;
+}
+.workers-list_ul li{
+    width: 130px;
+    height: 130px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.workers-list_ul li img{
+    width: 120px;
+    border-radius: 50%;
+}
+.li-img1{
+    left: 0;
+    position: absolute;
+    z-index: 1;
+}
+.li-img2{
+    left: 100px;
+    position: absolute;
+    z-index: 2;
+}
+.li-img3{
+    position: absolute;
+    left: 200px;
+    z-index: 3;
+}
+
+
+@media(max-width: 800px){
+    .group-bar{
+        padding: 0 20px 20px 20px;
+        flex-direction: column;
+        gap: 20px;
+        border-bottom: solid #D9D9D9 2px;
+    }
+    .group-img img{
+        width: 760px;
+        height: 460px;
+    }
+    .group-main h2{
+        font-size: 48px;
+        line-height: 60px;
+        max-width: 541px;
+    }
+    .group-main{
+        flex-direction: row;
+        gap: 9px;
+    }
+    .arrow{
+        display: none;
+    }
+    #li-image3{
+        display: none;
+    }
+    .workers-list_ul{
+        width: 230px;
+    }
+}
+@media(max-width: 360px){
+    .group-img img{
+        width: 320px;
+        height: 300px;
+    }
+    .group-main h2{
+        font-size: 24px;
+        line-height: 30px;
+        max-width: 300px;
+    }
+    .workers-list_ul li{
+        width: 60px;
+        height: 60px;
+    }
+    .workers-list_ul li img{
+        width: 60px;
+    }
+    .workers-list_ul{
+        width: 60px;
+        height: 60px;
+    }
+    #li-image2{
+        display: none;
+    }
+
+}

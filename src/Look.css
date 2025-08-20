@@ -25,6 +25,9 @@
     text-transform: capitalize;
     color: #666666;
 }
+#huge-btn:active{
+    transform: scale(0.995);
+}
 .look-ul{
     display: flex;
     flex-wrap: wrap;

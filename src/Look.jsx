@@ -117,7 +117,7 @@ function Look() {
                 </div>
             </li>
         </ul>
-        <button className="look-btn">Batafsil</button>
+        <button className="look-btn" id='huge-btn'>Batafsil</button>
     </div>
   )
 }

@@ -21,7 +21,7 @@ function Group() {
                     <li className='li-img2' id='li-image2'><img src={worker2} alt="worker2" /></li>
                     <li className='li-img3' id='li-image3'><img src={worker3} alt="worker3" /></li>
                 </ul>
-                <img src={groupVector} alt="group vector" className='arrow'/>
+                <i class="fa-solid fa-arrow-right arrow"></i>
             </div>
         </div>
     </div>

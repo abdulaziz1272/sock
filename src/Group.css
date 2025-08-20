@@ -25,6 +25,7 @@
 .workers-list{
     display: flex;
     gap: 125px;
+    align-items: center;
 }
 .workers-list_ul{
     display: flex;
@@ -59,6 +60,28 @@
     position: absolute;
     left: 200px;
     z-index: 3;
+}
+.arrow{
+    cursor: pointer;
+    font-size: 90px;
+    color: #0567FA;
+    animation: glowAnimate infinite;
+    padding: 10px 0;
+    border-radius: 50%;
+    animation: glowAnimate 6s linear infinite;
+}
+.arrow:hover{
+    animation-duration: 3s;
+}
+.arrow:active{
+    transform: scale(0.98);
+}
+@keyframes glowAnimate {
+  0%   { text-shadow: 0 0 20px rgba(0,102,255,0.5); color: #f0f0f0; }
+  25%  { text-shadow: 0 0 50px rgba(0,102,255,0.7); color: #b3d4ff; }
+  50%  { text-shadow: 0 0 80px rgba(0,102,255,0.9); color: #66b2ff; }
+  75%  { text-shadow: 0 0 50px rgba(0,102,255,0.7); color: #b3d4ff; }
+  100% { text-shadow: 0 0 20px rgba(0,102,255,0.5); color: #f0f0f0; }
 }
 
 
